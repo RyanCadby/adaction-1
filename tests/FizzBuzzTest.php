@@ -14,7 +14,7 @@ class FizzBuzzTest extends TestCase {
         $this->assertEquals($expectedResults, $testResults);
     }
 
-    // test 3
+    // test fizz
     public function testLimitThree() {
         $fizzBuzz = new FizzBuzz();
         $inputStart = 3;
@@ -24,7 +24,7 @@ class FizzBuzzTest extends TestCase {
         $this->assertEquals($expectedResults, $testResults);
     }
 
-    // test 5
+    // test buzz
     public function testLimitFive() {
         $fizzBuzz = new FizzBuzz();
         $inputStart = 5;
@@ -34,7 +34,7 @@ class FizzBuzzTest extends TestCase {
         $this->assertEquals($expectedResults, $testResults);
     }
 
-    // test 15 'fizzbuzz' concat
+    // test fizzbuzz
     public function testLimitFifteen() {
         $fizzBuzz = new FizzBuzz();
         $inputStart = 15;
